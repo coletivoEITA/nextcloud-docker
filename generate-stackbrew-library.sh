@@ -51,10 +51,10 @@ getArches 'nextcloud'
 
 # Header.
 cat <<-EOH
-# This file is generated via https://github.com/nextcloud/docker/blob/$(fileCommit "$self")/$self
+# This file is generated via https://github.com/coletivoEITA/nextcloud-docker/blob/$(fileCommit "$self")/$self
 
-Maintainers: Nextcloud <docker@nextcloud.com> (@nextcloud)
-GitRepo: https://github.com/nextcloud/docker.git
+Maintainers: Cooperativa EITA <coletivo@eita.org.br> (@coopeita)
+GitRepo: https://github.com/coletivoEITA/nextcloud-docker.git
 EOH
 
 # prints "$2$1$3$1...$N"
